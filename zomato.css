@@ -1,0 +1,410 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    inline-size: 100%;
+    block-size: 70vh;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+    margin-block-end: 7vh;
+}
+.header-image{
+    position: absolute;
+    inset-block-start: -20vh;
+    z-index: -1;
+}
+.nav{
+    display: flex;
+    margin: 1vh 10vw;
+    justify-content: space-between;
+    color: white;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+.nav-bar{
+    display: flex;
+}
+.nav-bar li{
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    padding-inline-start: 30px;
+    list-style: none;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-block-start: 7vh;
+    align-items: center;
+}
+.logo{
+    inline-size: 20vw;
+}
+.head h3{
+    font-size: 2.1em;
+    color: whitesmoke;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.search{
+    display: flex;
+    inline-size: 55vw;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px 0;
+}
+.search input{
+    outline: none;
+    border: none;
+    inline-size: 50%;
+    padding-inline-start: 10px;
+    font-size: 15px;
+}
+.search p{
+    color: gray;
+    border-inline-end: 1px solid gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding-inline-end: 10px;
+}
+.search i:first-child{
+    font-size: 20px;
+    color: rgb(252,119,119);
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+}
+.search i{
+    color: gray;
+    padding-inline-start: 10px;
+}
+.sec-1{
+    display: flex;
+    justify-content: center;
+    margin-block-end: 13vh;
+}
+.box{
+    position: relative;
+    inline-size: 265px;
+    margin: 3px 5px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 1px 2px gray;
+    background-color: rgb(243,240,240);
+}
+.box img{
+    inline-size: 100%;
+    border-radius: 15px;
+    border: 1px solid rgb(204,203,203);
+    z-index: -1;
+}
+.white{
+    position: absolute;
+    inset-block-end: 3px;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+    background-color: white;
+    inline-size: 100%;
+    block-size: 25%;
+    z-index: 2;
+}
+.white p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color: rgb(56, 56, 56);
+    letter-spacing: 0.7px;
+}
+
+.middle, .end{
+    margin: 60px 150px;
+}
+.sec-2 h2{
+    font-size: 2.7rem;
+    font-weight: lighter;
+    margin-block-end: 10px;
+}
+.sec-2 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block-end: 30px;
+}
+.sec-2 h6{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: rgb(99, 98, 98)
+}
+.fa-caret-right, .sec-2 span{
+    color: rgb(248, 117, 117);
+}
+.box-1{
+    inline-size: 300px;
+    block-size: 350px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+}
+
+.box-1 div{
+    position: absolute;
+    background: linear-gradient(transparent, black);
+    inline-size: 100%;
+    block-size: 25%;
+    display: flex;
+    align-items: flex-end;
+    inset-block-end: 0;
+}
+
+.box-1 div span:first-child{
+    display: inline-block;
+    color: white;
+    padding-inline-start: 15px;
+    font-size: 1rem;
+    padding-block-end: 15px;
+}
+.box-1 i{
+    color: white;
+    padding-block-end: 15px;
+}
+.box-1 img{
+    inline-size: 300px;
+    block-size: 350px;
+    object-fit: cover;
+    justify-content: space-between;
+}
+.sec-3{
+    display: flex;
+    justify-content: space-between;
+    margin-block-start: 30px;
+    margin-block-end: 130px;
+}
+.middle h1{
+    font-size: 2.1rem;
+    font-weight: lighter;
+    text-align: center;
+    margin: 50px;
+    color: rgb(56, 56, 56);
+}
+.sec-4{
+    display: grid;
+    justify-content: center;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    grid-template-columns: 340px 340px 340px;
+    grid-template-rows: auto;
+}
+.box-2{
+    border: 1px solid rgb(235, 233, 233);
+    box-shadow: 0 1px 3px rgb(226,233,233);
+    inline-size: 340px;
+    block-size: 60px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.box-2 div{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.box-2 div span{
+    color: rgb(65,64, 64);
+    font-size: 1.2rem;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.sec-5{
+    display: flex;
+    margin: 90px 0;
+    padding: 40px 0;
+    justify-content: center;
+    background-color: rgb(255,248,248);
+}
+.flex{
+    display: flex;
+}
+.contact{
+    inline-size: 760px;
+    overflow: hidden;
+}
+.contact img{
+    inline-size: 250px;
+    block-size: 450px;
+    padding-inline-end: 40px;
+}
+.address{
+    inline-size: 470px;
+    margin-block-start: 20px;
+    padding-inline-start: 10px;
+}
+.address p{
+    padding-block-end: 10px;
+    font-size: 0.95rem;
+    color: rgb(92, 91, 91);
+}
+.address h2{
+    font-size: 2.7rem;
+    font-weight: lighter;
+    margin-block-end: 20px;
+    color: rgb(34, 34, 34);
+}
+.radio{
+    display: flex;
+    justify-content: space-between;
+    margin-inline-end: 230px;
+    padding-block-end: 20px;
+}
+.radio label{
+    font-size: 1.1rem;
+    color: rgb(49, 49, 49);
+}
+
+.radio[type="radio"]{
+    accent-color: rgb(255, 92, 92);
+}
+.email{
+    position: relative;
+}
+.email input{
+    block-size: 46px;
+    border-radius: 5px;
+    inline-size: 270px;
+    border: 1px solid rgb(184,183,183);
+    outline: rgb(255,92,92);
+    font-size: 1.3rem;
+    padding-inline-start: 15px;
+}
+.place{
+    position: absolute;
+    font-size: 1.3rem;
+    inset-inline-start: 15px;
+    inset-block-start: 13px;
+    color: gray;
+    font-weight: lighter;
+}
+.email button{
+    inline-size: 150px;
+    border-radius: 6px;
+    border: 1px solid rgb(253,104,104);
+    background-color: rgb(253,104,104);
+    font-size: 1.1rem;
+    margin-inline-start: 6px;
+    color: white;
+}
+.download{
+    font-size: 0.7rem;
+    margin-block-start: 27px;
+    margin-block-end: 0;
+    color: gray;
+}
+.app img{
+    inline-size: 137px;
+    block-size: 40px;
+}
+.sec-6{
+    margin-block-end: 110px;
+}
+.sec-6 h1{
+    font-size: 1.9rem;
+    margin-block-end: 25px;
+    color: rgb(31,31,31);
+}
+.sec-6 h4{
+    font-size: 1.4rem;
+    margin-block-end: 25px;
+    font-weight: lighter;
+    color: rgb(31,31,31);
+}
+.sec-6 a{
+    text-decoration: none;
+    color: gray;
+    font-size: 0.95rem;
+}
+.sec-6 i{
+    font-size: 0.3rem;
+    padding: 6px 5px;
+    color: gray;
+} 
+.end-column a{
+    inline-size: 190px;
+    font-size: 1rem;
+    font-weight: lighter;
+    display: inline-block;
+    margin: 15px 0;
+}
+.first img{
+    inline-size: 128px;
+    block-size: 32px;
+}
+.sec-7{
+    padding: flex;
+    background-color: rgb(244,244,253);
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+.first-1{
+    display: flex;
+}
+.first-1 span{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-inline-end: 20px;
+    font-weight: 400;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.second div{
+    inline-size: 200px;
+}
+.second h4{
+    font-weight: lighter;
+    color: rgb(22,22, 22);
+    white-space: nowrap;
+}
+.second a{
+    display: inline-block;
+    inline-size: 200px;
+    margin-block-end: 7px;
+    white-space: nowrap;
+    text-decoration: none;
+    color: gray;
+    font-size: 0.9rem;
+}
+.second img{
+    inline-size: 137px;
+    block-size: 40px;
+    margin-block-start: 11px;
+    cursor: pointer;
+}
+.box-4{
+    display: flex;
+    flex-direction: column;
+}
+.box-4 i{
+    margin-inline-start: 5px;
+    margin-block-end: 5px;
+}
+.third{
+    padding: 10px 0;
+    color: gray;
+    font-size: 0.9rem;
+}
